@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>зЈҒзҪ—з»Ҹж ЎжӯЈдҝЎжҒҜеҢ–зі»з»ҹ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            min-height: 100vh; /* зЎ®дҝқйЎөйқўжңүжңҖе°Ҹй«ҳеәҰ */
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .logo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .logo img {
+            max-width: 200px;
+            height: auto;
+            display: block; /* дҝ®еӨҚеӣҫзүҮжҳҫзӨәй—®йўҳ */
+            margin: 0 auto; /* еұ…дёӯеӣҫзүҮ */
+        }
+        .search-form {
+            margin-bottom: 30px;
+        }
+        .ship-name {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .ship-name input {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 300px;
+            text-align: center;
+        }
+        .id-search {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .id-search input, .id-search button {
+            padding: 8px 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .id-search button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .id-search button.reset {
+            background-color: #f44336;
+        }
+        .data-section h2 {
+            color: white;
+            text-align: center;
+            background-color: #4CAF50;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://i.imgur.com/MWdHaO2.png" alt="зЈҒзҪ—з»Ҹж ЎжӯЈзі»з»ҹLOGO">
+        </div>
+
+        <h1>зЈҒзҪ—з»Ҹж ЎжӯЈдҝЎжҒҜеҢ–зі»з»ҹ</h1>
+        
+        <div class="search-form">
+            <div class="ship-name">
+                <input type="text" placeholder="иҜ·иҫ“е…ҘиҲ№еҗҚ">
+            </div>
+            <div class="id-search">
+                <input type="text" placeholder="иҜ·иҫ“е…ҘID/Callsign">
+                <button type="button">жҹҘиҜў</button>
+                <button type="button" class="reset">йҮҚзҪ®</button>
+            </div>
+        </div>
+        
+        <div class="data-section">
+            <h2>жӯЈеёёж•°жҚ®</h2>
+            <table>
+                <tr>
+                    <th>иҲ№еҗҚ</th>
+                    <td>XIN SHUN</td>
+                </tr>
+                <tr>
+                    <th>ID/Callsign</th>
+                    <td>352001801</td>
+                </tr>
+                <tr>
+                    <th>еҠҹзҺҮ</th>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th>жҖ»еҗЁ</th>
+                    <td>38871</td>
+                </tr>
+                <tr>
+                    <th>зЈҒзҪ—з»ҸеҸ°ж•°</th>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th>ж ЎжӯЈж—Ҙжңҹ</th>
+                    <td>2025-04-14</td>
+                </tr>
+                <tr>
+                    <th>ж ЎжӯЈдәәе§‘еҗҚ</th>
+                    <td>жӣ№зғ”</td>
+                </tr>
+                <tr>
+                    <th>иҜҒд№ҰеҸ·</th>
+                    <td>205168</td>
+                </tr>
+                <tr>
+                    <th>ж ЎжӯЈжңүж•Ҳжңҹ</th>
+                    <td>2026-04-14</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
